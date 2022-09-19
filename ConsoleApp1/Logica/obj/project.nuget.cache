@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Wexak33oRvHVxrOfigdM6FafotySXM04V/8z8/F3bT9i+nYzvgohz+I0A0tw/3yL+tIu7cgbyGhcCUPrDw3QMQ==",
+  "dgSpecHash": "MxIdcsoZGpX26tIP5caxCPYZwjph+0hA97EgHNIaLTi3Qpawm1qoxrXab5bXJ7InzYI3Dlz23bZgw/KKlVzUyA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alumno\\source\\repos\\ConsoleApp1\\Logica\\Logica.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Alumno\\Desktop\\bitbucket\\ConsoleApp1\\Logica\\Logica.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alumno\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Logica
 {
-    internal class Alumno : Persona
+    public class Alumno : Persona
     {
         public int idAlumno { get; set; }
 

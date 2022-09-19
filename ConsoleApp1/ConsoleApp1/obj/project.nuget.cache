@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "0cYT5Pd5oy0tTiz79OZ7Yb9USlJwdsGkITvyQheolX2sDMm9IMyVtOsahPkwarqKB8oNJ6IHeDpwj0fgmVuREQ==",
+  "dgSpecHash": "7aVkMYQnLK1vRYfb50bJKjxi9BtwY35dLcNL+ow5K7NxlBYCOFDrNRO8Gdi3gftQhWXUeeuBDB7tBeA3GS7NMQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alumno\\source\\repos\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Alumno\\Desktop\\bitbucket\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alumno\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
