@@ -38,9 +38,10 @@ namespace Logica
             alumnoModificado.idAlumno = alumnoModificado.idAlumno;
             alumnoModificado.tarjetaCredito = alumnoModificado.tarjetaCredito;
             ListaAlumno.Add(alumnoModificado);
-            var productoEliminado = ListaAlumno.Find(x => idProduct == x.idAlumno);
+            var productoEliminado = ListaAlumno.Find(x => NuevoAlumno.idAlumno == x.idAlumno);
             ListaAlumno.Remove(alumnoModificado);
             ListaAlumno.Add(alumnoModificado);
         }
 
+    }
 }

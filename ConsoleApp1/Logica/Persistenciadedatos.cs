@@ -8,7 +8,8 @@ using System.IO;
 
 namespace Logica
 {
-    internal class Persistencia_de_datos
+    public class Persistenciadedatos
     {
+        
     }
 }

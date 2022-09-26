@@ -1,0 +1,12 @@
+C:\Users\Alumno\Desktop\bitbucket\ConsoleApp1\Logica\bin\Debug\net6.0\Logica.deps.json
+C:\Users\Alumno\Desktop\bitbucket\ConsoleApp1\Logica\bin\Debug\net6.0\Logica.dll
+C:\Users\Alumno\Desktop\bitbucket\ConsoleApp1\Logica\bin\Debug\net6.0\Logica.pdb
+C:\Users\Alumno\Desktop\bitbucket\ConsoleApp1\Logica\obj\Debug\net6.0\Logica.csproj.AssemblyReference.cache
+C:\Users\Alumno\Desktop\bitbucket\ConsoleApp1\Logica\obj\Debug\net6.0\Logica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alumno\Desktop\bitbucket\ConsoleApp1\Logica\obj\Debug\net6.0\Logica.AssemblyInfoInputs.cache
+C:\Users\Alumno\Desktop\bitbucket\ConsoleApp1\Logica\obj\Debug\net6.0\Logica.AssemblyInfo.cs
+C:\Users\Alumno\Desktop\bitbucket\ConsoleApp1\Logica\obj\Debug\net6.0\Logica.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Desktop\bitbucket\ConsoleApp1\Logica\obj\Debug\net6.0\Logica.dll
+C:\Users\Alumno\Desktop\bitbucket\ConsoleApp1\Logica\obj\Debug\net6.0\refint\Logica.dll
+C:\Users\Alumno\Desktop\bitbucket\ConsoleApp1\Logica\obj\Debug\net6.0\Logica.pdb
+C:\Users\Alumno\Desktop\bitbucket\ConsoleApp1\Logica\obj\Debug\net6.0\ref\Logica.dll

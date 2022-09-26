@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Logica;
 
 namespace WindowsFormsApp1
 {
@@ -15,11 +16,6 @@ namespace WindowsFormsApp1
         public Form1()
         {
             InitializeComponent();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
         }
 
         private void titulo_Click(object sender, EventArgs e)
@@ -69,6 +65,14 @@ namespace WindowsFormsApp1
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void PantallaPrincipal_Load(object sender, EventArgs e)
+        {
+            Persistenciadedatos instanciaPersistencia = new Persistenciadedatos();
+            instanciaPersistencia.inicializarArchivos();
+            Principal instanciaPrincipal = new Principal();
+            instanciaPersistencia.rellenarListas();
         }
     }
 }
