@@ -55,10 +55,19 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -70,6 +79,18 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\ModeloLogica.Alumno.datasource" />
+    <None Include="Properties\DataSources\ModeloLogica.Class1.datasource" />
+    <None Include="Properties\DataSources\ModeloLogica.Curso.datasource" />
+    <None Include="Properties\DataSources\ModeloLogica.Examen.datasource" />
+    <None Include="Properties\DataSources\ModeloLogica.Membresia.datasource" />
+    <None Include="Properties\DataSources\ModeloLogica.Notas.datasource" />
+    <None Include="Properties\DataSources\ModeloLogica.Pagos.datasource" />
+    <None Include="Properties\DataSources\ModeloLogica.Persistenciadedatos.datasource" />
+    <None Include="Properties\DataSources\ModeloLogica.Persona.datasource" />
+    <None Include="Properties\DataSources\ModeloLogica.Precio.datasource" />
+    <None Include="Properties\DataSources\ModeloLogica.Principal.datasource" />
+    <None Include="Properties\DataSources\ModeloLogica.Profesor.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -84,9 +105,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Logica\Logica.csproj">
-      <Project>{42a76476-1100-4282-a2d3-f82fa6f6e3bb}</Project>
-      <Name>Logica</Name>
+    <ProjectReference Include="..\ModeloLogica\ModeloLogica.csproj">
+      <Project>{770fe208-b1fd-4f6d-b1ce-8b025fc46f71}</Project>
+      <Name>ModeloLogica</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

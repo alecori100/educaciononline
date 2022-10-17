@@ -1,0 +1,9 @@
+C:\Users\Alumno\Desktop\bitbucket\ConsoleApp1\ModeloLogica\bin\Debug\ModeloLogica.dll
+C:\Users\Alumno\Desktop\bitbucket\ConsoleApp1\ModeloLogica\bin\Debug\ModeloLogica.pdb
+C:\Users\Alumno\Desktop\bitbucket\ConsoleApp1\ModeloLogica\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Alumno\Desktop\bitbucket\ConsoleApp1\ModeloLogica\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Alumno\Desktop\bitbucket\ConsoleApp1\ModeloLogica\obj\Debug\ModeloLogica.csproj.AssemblyReference.cache
+C:\Users\Alumno\Desktop\bitbucket\ConsoleApp1\ModeloLogica\obj\Debug\ModeloLogica.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Desktop\bitbucket\ConsoleApp1\ModeloLogica\obj\Debug\ModeloLogica.csproj.CopyComplete
+C:\Users\Alumno\Desktop\bitbucket\ConsoleApp1\ModeloLogica\obj\Debug\ModeloLogica.dll
+C:\Users\Alumno\Desktop\bitbucket\ConsoleApp1\ModeloLogica\obj\Debug\ModeloLogica.pdb

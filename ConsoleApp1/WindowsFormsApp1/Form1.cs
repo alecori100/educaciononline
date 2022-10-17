@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Logica;
+using ModeloLogica;
 
 namespace WindowsFormsApp1
 {
@@ -31,9 +31,11 @@ namespace WindowsFormsApp1
             if (textUsuario.Text.Length > 0)
             {
                 // ARREGLAR if (validarUsuario(textUsuario.Text.Trim(), textContraseña.Text.Trim)));
-
+                
 
                 MessageBox.Show("Hola, esta por ingresar al sistema señor:" + textUsuario.Text);
+                Form2 fmr = new Form2();
+                fmr.Show();
             }
 
             else
@@ -69,10 +71,10 @@ namespace WindowsFormsApp1
 
         private void PantallaPrincipal_Load(object sender, EventArgs e)
         {
-            Persistenciadedatos instanciaPersistencia = new Persistenciadedatos();
-            instanciaPersistencia.inicializarArchivos();
+            Persistenciadedatos InstanciaPersistenciadedatos = new Persistenciadedatos();
+            InstanciaPersistenciadedatos.InicializarArchivos();
             Principal instanciaPrincipal = new Principal();
-            instanciaPersistencia.rellenarListas();
+            instanciaPrincipal.RellenarListas();
         }
     }
 }
