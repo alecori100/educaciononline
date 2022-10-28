@@ -12,6 +12,12 @@ namespace ModeloLogica
         List<Alumno> ListaAlumno = new List<Alumno>();
         public void AltaAlumno(Alumno NuevoAlumno)
         {
+            // Vamos a revisar si está bien la lista
+            if (ListaAlumno == null)
+            {
+                ListaAlumno = new List<Alumno>();
+            }
+
             Alumno nuevoAlumno = new Alumno();
             nuevoAlumno.DNI = NuevoAlumno.DNI;
             nuevoAlumno.Nombre = NuevoAlumno.Nombre;

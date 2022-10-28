@@ -52,7 +52,9 @@
             this.nombreDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.temarioDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.cursoBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.botonGuardar = new System.Windows.Forms.Button();
+            this.botonAgregar = new System.Windows.Forms.Button();
+            this.botonGuardarGrilla = new System.Windows.Forms.Button();
+            this.botonModificarAlumno = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dg_Profesor)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.profesorBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dg_Alumno)).BeginInit();
@@ -74,7 +76,7 @@
             this.telefonoDataGridViewTextBoxColumn,
             this.direccionDataGridViewTextBoxColumn});
             this.dg_Profesor.DataSource = this.profesorBindingSource;
-            this.dg_Profesor.Location = new System.Drawing.Point(42, 273);
+            this.dg_Profesor.Location = new System.Drawing.Point(3, 255);
             this.dg_Profesor.Name = "dg_Profesor";
             this.dg_Profesor.Size = new System.Drawing.Size(540, 150);
             this.dg_Profesor.TabIndex = 0;
@@ -200,7 +202,7 @@
             this.nombreDataGridViewTextBoxColumn2,
             this.temarioDataGridViewTextBoxColumn});
             this.dg_Curso.DataSource = this.cursoBindingSource;
-            this.dg_Curso.Location = new System.Drawing.Point(624, 255);
+            this.dg_Curso.Location = new System.Drawing.Point(604, 246);
             this.dg_Curso.Name = "dg_Curso";
             this.dg_Curso.Size = new System.Drawing.Size(343, 150);
             this.dg_Curso.TabIndex = 2;
@@ -227,22 +229,44 @@
             // 
             this.cursoBindingSource.DataSource = typeof(ModeloLogica.Curso);
             // 
-            // botonGuardar
+            // botonAgregar
             // 
-            this.botonGuardar.Location = new System.Drawing.Point(360, 209);
-            this.botonGuardar.Name = "botonGuardar";
-            this.botonGuardar.Size = new System.Drawing.Size(75, 23);
-            this.botonGuardar.TabIndex = 3;
-            this.botonGuardar.Text = "guardar";
-            this.botonGuardar.UseVisualStyleBackColor = true;
-            this.botonGuardar.Click += new System.EventHandler(this.botonGuardar_Click);
+            this.botonAgregar.Location = new System.Drawing.Point(489, 193);
+            this.botonAgregar.Name = "botonAgregar";
+            this.botonAgregar.Size = new System.Drawing.Size(75, 23);
+            this.botonAgregar.TabIndex = 3;
+            this.botonAgregar.Text = "Agregar";
+            this.botonAgregar.UseVisualStyleBackColor = true;
+            this.botonAgregar.Click += new System.EventHandler(this.botonAgregar_Click);
+            // 
+            // botonGuardarGrilla
+            // 
+            this.botonGuardarGrilla.Location = new System.Drawing.Point(356, 206);
+            this.botonGuardarGrilla.Name = "botonGuardarGrilla";
+            this.botonGuardarGrilla.Size = new System.Drawing.Size(75, 23);
+            this.botonGuardarGrilla.TabIndex = 4;
+            this.botonGuardarGrilla.Text = "Guardar";
+            this.botonGuardarGrilla.UseVisualStyleBackColor = true;
+            this.botonGuardarGrilla.Click += new System.EventHandler(this.botonGuardarGrilla_Click);
+            // 
+            // botonModificarAlumno
+            // 
+            this.botonModificarAlumno.Location = new System.Drawing.Point(623, 192);
+            this.botonModificarAlumno.Name = "botonModificarAlumno";
+            this.botonModificarAlumno.Size = new System.Drawing.Size(75, 23);
+            this.botonModificarAlumno.TabIndex = 5;
+            this.botonModificarAlumno.Text = "Modificar";
+            this.botonModificarAlumno.UseVisualStyleBackColor = true;
+            this.botonModificarAlumno.Click += new System.EventHandler(this.botonModificarAlumno_Click);
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(979, 450);
-            this.Controls.Add(this.botonGuardar);
+            this.Controls.Add(this.botonModificarAlumno);
+            this.Controls.Add(this.botonGuardarGrilla);
+            this.Controls.Add(this.botonAgregar);
             this.Controls.Add(this.dg_Curso);
             this.Controls.Add(this.dg_Alumno);
             this.Controls.Add(this.dg_Profesor);
@@ -284,6 +308,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn nombreDataGridViewTextBoxColumn2;
         private System.Windows.Forms.DataGridViewTextBoxColumn temarioDataGridViewTextBoxColumn;
         private System.Windows.Forms.BindingSource cursoBindingSource;
-        private System.Windows.Forms.Button botonGuardar;
+        private System.Windows.Forms.Button botonAgregar;
+        private System.Windows.Forms.Button botonGuardarGrilla;
+        private System.Windows.Forms.Button botonModificarAlumno;
     }
 }

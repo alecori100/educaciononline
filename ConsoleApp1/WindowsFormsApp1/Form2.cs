@@ -22,7 +22,12 @@ namespace WindowsFormsApp1
         private void Form2_Load(object sender, EventArgs e)
         {
             instanciaPrincipal.RellenarListas();
-            instanciaPrincipal.ValidarAlumno();
+            // voy  a llamar a la clase de persitsencia par que me devuelva la lista de alumnos 
+            List<Alumno> miLista = instanciaPrincipal.ValidarAlumno();
+            // ahor que tengo  la lista, se la tiro a la grilla para que la muestre
+            dg_Alumno.DataSource = miLista;
+            dg_Alumno.Refresh();
+
         }
 
 
@@ -39,14 +44,36 @@ namespace WindowsFormsApp1
 
         private void botonGuardar_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void botonAgregar_Click(object sender, EventArgs e)
+        {
+            Form3 fmr = new Form3();
+            fmr.Show();
+        }
+
+        private void botonGuardarGrilla_Click(object sender, EventArgs e)
+        {
             Alumno alumno = new Alumno();
             alumno.idAlumno = 1;
-            alumno.tarjetaCredito = 2123718;
+            alumno.tarjetaCredito = "2123718";
             alumno.Direccion = "sunchales";
             alumno.Email = "dou@dou.com";
-            alumno.DNI = 43433433;
+            alumno.DNI = "43433433";
             alumno.Nombre = "Eduardo";
             instanciaPrincipal.AltaAlumno(alumno);
+        }
+
+        private void botonModificarAlumno_Click(object sender, EventArgs e)
+        {
+            Form4 fmr = new Form4();
+            fmr.Show();
         }
     }
 }

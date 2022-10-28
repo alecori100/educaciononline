@@ -10,6 +10,6 @@ namespace ModeloLogica
     {
         public int idAlumno { get; set; }
 
-        public int tarjetaCredito { get; set; }
+        public string tarjetaCredito { get; set; }
     }
 }

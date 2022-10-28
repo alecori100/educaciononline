@@ -35,7 +35,7 @@ namespace ModeloLogica
             {
                 string content = reader.ReadToEnd();
                 List<Alumno> ListaAlumno = JsonConvert.DeserializeObject<List<Alumno>>(content);
-                return ListaAlumno;
+                return ListaAlumno; // new List<Alumno>();
             }
         }
 
